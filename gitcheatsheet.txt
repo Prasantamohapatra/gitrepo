@@ -1,0 +1,35 @@
+Branching and Merging:
+
+git branch: List all local branches.
+git branch <branch-name>: Create a new branch.
+git checkout <branch-name>: Switch to a different branch.
+git merge <branch-name>: Merge changes from another branch into the current branch.
+git rebase <branch-name>: Reapply commits from one branch on top of another.
+git cherry-pick <commit-hash>: Apply a specific commit from one branch to another.
+Remote Repositories and Collaboration:
+
+git remote -v: List remote repositories.
+git remote add <remote-name> <remote-url>: Add a new remote repository.
+git fetch <remote-name>: Fetch changes from a remote repository without merging.
+git pull <remote-name> <branch-name>: Fetch and merge changes from a remote branch.
+git push <remote-name> <branch-name>: Push local changes to a remote branch.
+git clone <remote-url>: Clone a remote repository to your local machine.
+Reverting and Resetting:
+
+git revert <commit-hash>: Create a new commit that undoes the changes introduced by a specific commit.
+git reset <commit-hash>: Move the branch pointer and reset the staging area to a specific commit.
+git reset --hard <commit-hash>: Move the branch pointer, reset the staging area, and discard all changes after the specified commit.
+Stashing:
+
+git stash: Temporarily save changes that are not ready to be committed.
+git stash list: List all stashed changes.
+git stash apply: Apply the most recent stashed changes to the working directory.
+git stash pop: Apply and remove the most recent stashed changes.
+Submodules:
+
+git submodule add <repository-url> <path>: Add a submodule to your repository.
+git submodule update --init: Initialize and fetch submodules.
+git submodule update --remote: Update submodules to their latest commits.
+Interactive Rebase:
+
+git rebase -i <commit-hash>: Launch an interactive rebase, allowing you to squash, reword, edit, and rearrange commits.
